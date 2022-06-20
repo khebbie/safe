@@ -1,6 +1,7 @@
 # Dev Container
 Inspired by [Reproducible Development with Devcontainers](https://www.infoq.com/articles/devcontainers/) this project has dev continers.   
-First time we build the dev container with `buildDevContainer.sh` and we run the container with `devContainer.sh`.   
+First time we build the dev container with `buildDevContainer.sh` and we run the container with `devContainer.sh`.  
+The first time you fire up the container you should run a `dotnet tool restore` and then a `dotnet run` and the services will be available on the relevant ports on the ip of the docker container.
 
 
 
